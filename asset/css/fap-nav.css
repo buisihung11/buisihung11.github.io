@@ -1,0 +1,76 @@
+#fap-nav {
+  z-index: 999;
+  position: fixed;
+  width: 40px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  left: 2%;
+}
+
+@media screen and (max-width: 1240px) {
+  #fap-nav {
+    width: auto;
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+    top: auto;
+    bottom: 5%;
+    left: 50%;
+  }
+}
+
+#fap-nav ul {
+  width: 100%;
+}
+
+@media screen and (max-width: 1240px) {
+  #fap-nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+#fap-nav ul li {
+  height: 3px;
+  width: 14px;
+  margin-bottom: 40px;
+  display: block;
+  position: relative;
+}
+
+@media screen and (max-width: 1240px) {
+  #fap-nav ul li {
+    height: auto;
+    margin: 0 12px;
+  }
+}
+
+#fap-nav ul li a {
+  width: 24px;
+  height: 100%;
+  background: #fff;
+  display: block;
+}
+
+@media screen and (max-width: 1240px) {
+  #fap-nav ul li a {
+    height: 24px;
+    width: 3px;
+  }
+}
+
+#fap-nav ul li a.active {
+  width: 40px;
+}
+
+@media screen and (max-width: 1240px) {
+  #fap-nav ul li a.active {
+    height: 40px;
+    width: 3px;
+  }
+}
+/*# sourceMappingURL=fap-nav.css.map */

@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url("https://fonts.googleapis.com/css?family=Niramit:400,400i,700,700i&subset=vietnamese");
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.container .reveal .reveal__layer {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(100%, 0);
+          transform: translate(100%, 0);
+  background-color: #F9C969;
+}
+
+.container .reveal .reveal__layer:nth-child(2) {
+  background-color: #202023;
+}
+
+@-webkit-keyframes anim-effect-2-2 {
+  0%,
+  14.5% {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+  37.5%,
+  62.5% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+            animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  85.5%,
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes anim-effect-2-2 {
+  0%,
+  14.5% {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+  37.5%,
+  62.5% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+            animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  85.5%,
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.container .reveal .reveal__layer__animation {
+  -webkit-animation: anim-effect-2-1 1.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+          animation: anim-effect-2-1 1.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+}
+
+@-webkit-keyframes anim-effect-2-1 {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+  30%,
+  70% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+            animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes anim-effect-2-1 {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+  30%,
+  70% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+            animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.container .reveal .reveal__layer__animation:nth-child(2) {
+  -webkit-animation-name: anim-effect-2-2;
+          animation-name: anim-effect-2-2;
+}
+
+.container .page {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container #display-page {
+  background-color: #605BD4;
+  font-family: 'Fjalla One', sans-serif;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  display: none;
+  background-image: url("../img/base.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 10px;
+  padding-top: 35px;
+}
+
+.container #display-page .wrapper {
+  position: relative;
+  padding: 10px 15px;
+  background-color: rgba(32, 32, 35, 0.7);
+  overflow: hidden;
+}
+
+.container #display-page .wrapper .welcome {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.container #display-page .wrapper .welcome p {
+  font-size: 2rem;
+  -webkit-transform: skew(-10deg);
+          transform: skew(-10deg);
+  color: #e55643;
+  display: block;
+  text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;
+}
+
+.container #display-page .wrapper .wishes p {
+  font-family: 'Niramit',sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 1.5em;
+  line-height: 26px;
+  color: #fefefe;
+}
+
+.container #display-page .wrapper .wishes p:before {
+  content: '\201C';
+}
+
+.container #display-page .wrapper .wishes p:after {
+  content: '\201D';
+}
+
+@media screen and (max-width: 420px) {
+  .container #display-page .wrapper .wishes p {
+    font-size: 1.2em;
+  }
+}
+
+.container #display-page .videoplayer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container #display-page .videoplayer #music-container {
+  display: block;
+}
+/*# sourceMappingURL=transiton.css.map */

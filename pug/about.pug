@@ -1,0 +1,90 @@
+doctype html
+html
+    head
+        title About
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.4.1/css/all.css', integrity='sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz', crossorigin='anonymous')
+        link(rel="stylesheet" href="../../asset/css/normalize.css")
+        link(rel="stylesheet" href="../../asset/css/base.css")
+        link(rel="stylesheet" href="../../asset/css/header.css")
+        link(rel="stylesheet" href="../../asset/css/section.css")
+        link(rel="stylesheet" href="../../asset/css/about.css")
+        
+        
+    body
+        include header.pug
+        section.top
+            //- .parrallax
+            //-     img(src="../../asset/img/hunghcc.jpg", alt="Picture")
+
+            .section.about-me#section4
+                img(src="../../asset/img/hunghcc.jpg", alt="" class="hero_img")
+                .wrapper
+                    .title
+                        h2.title_section About Me
+                            br
+                            
+                            .border
+                                span#border1
+                                span#border2
+                        p.kind_section Software Engineering    
+                    //a(href="#" id="img-link")
+        section.body
+            .introduce
+                
+                h2.skill-intro Who i am
+                .detail
+                    p.describe Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum enim esse praesentium sit doloribus voluptates alias ipsum beatae mollitia fugiat aspernatur cum iusto voluptatem rem aliquid, inventore, iure vero. Commodi a explicabo accusantium quisquam, fugit nisi facere quas saepe magnam itaque ipsam omnis velit, error minima et iusto consectetur.
+                    img(src="../../asset/img/hunghcc.jpg", alt="")
+            .skill
+                h2.skill-intro skill set
+                .skill-wrapper
+                    .skill-set-item
+                        .skill-img
+                            img(src="../../asset/img/html.svg", alt="html/css")
+                        .skill-detail
+                            .skill-meta
+                                p.skill-name HTML/CSS
+                                p.skill-year 1 year
+                                p.skill-per 50%
+                            .skill-bar-wrapper
+                                span.skill-bar                
+                    .skill-set-item
+                        .skill-img
+                            img(src="../../asset/img/pug.svg", alt="pug")
+                        .skill-detail
+                            .skill-meta
+                                p.skill-name Pug
+                                p.skill-year 1 year
+                                p.skill-per 60%
+                            .skill-bar-wrapper
+                                span.skill-bar
+                    .skill-set-item
+                        .skill-img
+                            img(src="../../asset/img/sass.svg", alt="sass")
+                        .skill-detail
+                            .skill-meta
+                                p.skill-name Sass
+                                p.skill-year 1 year
+                                p.skill-per 70%
+                            .skill-bar-wrapper
+                                span.skill-bar
+                    .skill-set-item
+                        .skill-img
+                            img(src="../../asset/img/js.svg", alt="javascript")
+                        .skill-detail
+                            .skill-meta
+                                p.skill-name Javascript
+                                p.skill-year 1 year
+                                p.skill-per 40%
+                            .skill-bar-wrapper
+                                span.skill-bar            
+        section.footer
+            .contact
+                h2.email buisihung321@gmail.com
+                h2.name HungHcc        
+        script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js")    
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js")
+        script(src="../../asset/js/header.js")
+        script(src="../../asset/js/about.js")

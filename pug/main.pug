@@ -1,0 +1,41 @@
+
+doctype html
+html
+	head 
+		title Porifilio
+		meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+
+		//BootStrap 
+		//link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous")
+		link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.4.1/css/all.css', integrity='sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz', crossorigin='anonymous')
+		link(rel="stylesheet" href="../../asset/css/normalize.css")
+		link(rel="stylesheet" href="../../asset/css/base.css")
+		link(rel="stylesheet" href="../../asset/css/header.css")
+		link(rel="stylesheet" href="../../asset/css/section.css")
+		link(rel="stylesheet" href="../../asset/css/fap-nav.css")
+		
+	body
+		include mixin.pug
+		include header.pug
+		include section.pug
+		//- p Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates saepe necessitatibus nulla dolor architecto harum doloribus nam! Minus quia dignissimos illo, vitae provident corporis, odio dicta dolor non nemo hic?
+
+		//- - const c = {date : "0-4-91", author: "Hung",text: "Haha"}
+		//- +commentTemplate(c)
+
+		.test
+
+
+
+
+
+
+
+
+
+		include fap-nav.pug
+		script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js")
+		script(src="../../asset/js/header.js")
+		script(src="../../asset/js/fap-nav.js")

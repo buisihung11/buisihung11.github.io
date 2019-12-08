@@ -1,0 +1,44 @@
+footer
+    position: fixed
+    padding: 5px 10px
+    top: 0
+    left: 0
+    width: 100%
+    display: flex
+    justify-content: space-between
+    background-color: rgba(0,0,0,.1)
+    #back
+        padding: 5px 10px
+        background: rgba(255,255,255,0)
+        cursor: pointer
+        border: none
+        transition: all 300ms ease-in-out
+        position: relative
+        overflow: hidden
+        // position: 
+        &:after
+            content: ""
+            width: 100%
+            height: 2px
+            background-color: #fefefe
+            position: absolute
+            transition: all 300ms ease-in-out
+            left: -100%
+            bottom: 0
+            
+        &:hover:after
+            left: 0
+
+    p
+        color: gray
+        text-transform: uppercase
+        display: inherit
+        align-items: center
+        // float: right
+        span
+            a
+                color: #fefefe    
+                &:hover
+                    transition: all 300ms ease
+                    cursor: pointer
+                    text-shadow: 0 0 8px #fff

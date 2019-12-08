@@ -1,0 +1,43 @@
+doctype html
+head
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Happy Woman Day
+    //Css
+    link(href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet')
+    link(rel="stylesheet", href="../../assest/css/main.css")
+    link(rel="stylesheet", href="../../assest/css/form.css")
+    link(rel="stylesheet", href="../../assest/css/transiton.css")
+    
+    link(rel="stylesheet", href="../../assest/css/footer.css")
+    link(rel="stylesheet", href="../../assest/css/iframe.css")
+    //End Css
+
+    script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.0/TweenMax.min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    script(src='../../assest/js/active.js')
+    
+body
+    .container
+        .pages
+            .page#img-container
+            .page#display-page
+                .wrapper
+                    .welcome
+                        p Hello Bùi Sĩ Hùng
+                    .wishes
+                        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, omnis!
+                #iframe-container
+                    button#trigger-video(data-access = "false" data-display = "false") Press Here
+                    #iframe-wrapper
+            .reveal
+                .reveal__layer1.reveal__layer
+                .reveal__layer2.reveal__layer
+    
+    #form-container
+        include form.pug
+    //- script(src='../../assest/js/main.js')
+    include footer.pug
+    
+    script(src='../../assest/js/form.js')
+    script(src='../../assest/js/btn.js')
+    

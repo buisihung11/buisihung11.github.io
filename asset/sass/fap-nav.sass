@@ -1,0 +1,40 @@
+#fap-nav
+    z-index: 999
+    position: fixed
+    width: 40px
+    top: 50%
+    transform: translate(0,-50%)
+    left: 2%
+    @media screen and (max-width: 1240px)
+        width: auto
+        transform: translate(-50%,0%)
+        top: auto
+        bottom: 5%
+        left: 50%
+    ul
+        width: 100%
+        @media screen and (max-width: 1240px)
+            display: flex
+            align-items: flex-end
+        li
+            height: 3px
+            width: 14px
+            margin-bottom: 40px
+            display: block
+            position: relative
+            @media screen and (max-width: 1240px)
+                height: auto
+                margin: 0 12px
+            a
+                width: 24px
+                height: 100%
+                background: #fff
+                display: block
+                @media screen and (max-width: 1240px)
+                    height: 24px
+                    width: 3px
+            a.active
+                width: 40px
+                @media screen and (max-width: 1240px)        
+                    height: 40px
+                    width: 3px

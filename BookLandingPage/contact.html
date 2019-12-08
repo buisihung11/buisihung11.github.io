@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script
+				src="https://code.jquery.com/jquery-3.3.1.min.js"
+				integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="discover">
+			<a href="BookSell/a.html">Start Discover</a>
+		</div>
+		<div class="contact_form">
+			<video autoplay muted loop id="myVideo">
+				<source src="img/contactvideo.mp4" type="video/mp4">
+			</video>
+			<div class="form_container">
+				<div class="form_wrapper">
+					<div class="form_element">
+						<label>Your Name</label>
+						<input type="text" class="form-control" value="">
+					</div>
+					<div class="form_element">
+						<label>Email address</label>
+						<input type="email" class="form-control" placeholder="@gmail.com">
+					</div>
+					<div class="form_element">
+						<label>Phone</label>
+						<input type="text" class="form-control">
+					</div>
+					<div class="form_element">
+						<label>Company</label>
+						<input type="text" class="form-control" value="CreativeTim">
+					</div>
+					<div class="form_element" id="mess_form">
+						<label>Message</label>
+						<input type="text" class="form-control" placeholder="Hello there!">
+					</div>
+					<button type="submit" class="submit_btn">Send text</button>
+				</div>
+				<div class="form_help">
+					<div class="company_info">
+						<div class="icon icon-primary">
+							<i class="fas fa-map-signs"></i>
+						</div>
+						<div class="description">
+							<h4 class="info-title">Find us at the office</h4>
+							<p> Bld Mihail Kogalniceanu, nr. 8,
+								<br> 7652 Bucharest,
+								<br> Romania
+							</p>
+						</div>
+					</div>
+					<div class="company_info">
+						<div class="icon icon-primary">
+							<i class="fas fa-mobile-alt"></i>
+						</div>
+						<div class="description">
+							<h4 class="info-title">Give us a ring</h4>
+							<p> Michael Jordan
+								<br> +40 762 321 762
+								<br> Mon - Fri, 8:00-22:00
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<section class="footer">
+			<div class="foot_col slogan">
+				<p> <span>Keep </span> reading <br> your <strong>favorite books!</strong></p>
+			</div>
+			<div class="foot_col">
+				<h2 class="foot_title"> Explore</h2>
+				<a href="#">About us</a>
+				<a href="#">Sitemap</a>
+				<a href="#">Bookmarks</a>
+				<a href="#">Sign in/Join</a>
+			</div>
+			<div class="foot_col">
+				<h2 class="foot_title"> How can we help?</h2>
+				<a href="#">Help</a>
+				<a href="#">Contact us</a>
+				<a href="#">Where's my stuff?</a>
+				<a href="#">Where do you delivier?</a>
+			</div>
+			<div class="foot_col">
+				<h2 class="foot_title"> Join us</h2>
+				<a href="#">Affiliates</a>
+				<a href="#">Jobs</a>
+			</div>
+			<div class="foot_col">
+				<h2 class="foot_title">Important stuff</h2>
+				<a href="#">Cookies</a>
+				<a href="#">Privacy</a>
+				<a href="#">Terms and Conditions</a>
+				<a href="#">Secure Shopping</a>
+				<a href="#">Accessibility</a>
+			</div>
+		</section>
+		<script type="text/javascript">
+			$(window).scroll(function(event){
+				if(scrollY > $('.footer').offset().top - ($(window).height() / 1.2)) {
+					$(".footer").addClass("footer_active");
+					}
+			})
+		</script>
+	</body>
+</html>

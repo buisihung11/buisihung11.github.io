@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers");
+header.hide {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 40px 40px 0 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 1000;
+}
+
+header ul {
+  padding: 0;
+  margin: 0;
+}
+
+header i:hover {
+  text-shadow: 0 0px 5px;
+}
+
+@media screen and (max-width: 420px) {
+  header {
+    padding: 20px 6%;
+  }
+}
+
+header .name {
+  color: #fefefe;
+  font-size: 1.5rem;
+}
+
+header .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .wrap .icon a {
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  margin-right: 3.2rem;
+}
+
+header .wrap .menuIcon {
+  width: 50px;
+  height: 22px;
+  cursor: pointer;
+  position: relative;
+}
+
+header .wrap .menuIcon:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #fefefe;
+  -webkit-transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+header .wrap .menuIcon:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #fefefe;
+  -webkit-transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+header .wrap .menuIcon.openMenu:before {
+  bottom: 50%;
+  -webkit-transform: rotate(-45deg) translate3d(0, 50%, 0);
+          transform: rotate(-45deg) translate3d(0, 50%, 0);
+}
+
+header .wrap .menuIcon.openMenu:after {
+  top: 50%;
+  -webkit-transform: rotate(45deg) translate3d(0, -50%, 0);
+          transform: rotate(45deg) translate3d(0, -50%, 0);
+}
+
+header nav.hiddenNav {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: -100;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(0, -100%);
+          transform: translate(0, -100%);
+  -webkit-transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  visibility: hidden;
+}
+
+header nav.hiddenNav li {
+  position: relative;
+  overflow: hidden;
+}
+
+header nav.hiddenNav li a.showUp {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+header nav.hiddenNav li a {
+  color: #ba0000;
+  position: relative;
+  display: block;
+  line-height: 1.4em;
+  font-size: 8rem;
+  text-transform: uppercase;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+  font-family: 'Bangers',sans-serif;
+}
+
+@media screen and (max-width: 1040px) {
+  header nav.hiddenNav li a {
+    font-size: 7.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header nav.hiddenNav li a {
+    font-size: 6.2rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  header nav.hiddenNav li a {
+    font-size: 5.2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header nav.hiddenNav li a {
+    font-size: 3.6rem;
+  }
+}
+
+header nav.hiddenNav li.icon {
+  display: none;
+}
+
+header nav.hiddenNav li.icon a:nth-child(2) {
+  padding: 0 20px;
+}
+
+header nav.hiddenNav.openNav {
+  visibility: visible;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+@media screen and (max-width: 470px) {
+  .icon {
+    display: none;
+  }
+  header .wrap .menuIcon {
+    width: 25px;
+    height: 15px;
+  }
+  header nav.hiddenNav li.icon {
+    display: block;
+  }
+  header nav.hiddenNav li.icon a {
+    display: inline-block;
+  }
+}
+/*# sourceMappingURL=header.css.map */

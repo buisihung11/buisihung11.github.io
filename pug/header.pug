@@ -1,0 +1,26 @@
+mixin iconList
+	a(href="#" target="_blank")
+				i.fab.fa-instagram
+	a(href="#" target="_blank")
+		i.fab.fa-twitter
+	a(href="#" target="_blank")
+				i.fab.fa-facebook-f
+header
+	a.name(href="#") HungHCC
+	.wrap
+		.icon
+			+iconList
+		.menuIcon(data-clicked=`false`)
+	nav.hiddenNav
+		ul
+			-const ulList = ["Home","Works","About me","Contact"]
+			li
+				a(href="#") Home	
+			li
+				a(href="#") Works	
+			li
+				a(href="#") About me
+			li
+				a(href="#") Contact
+			li.icon 
+				+iconList

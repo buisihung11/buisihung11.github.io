@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=KoHo:400,700&subset=vietnamese')
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Roboto:400,900|Ubuntu:400,700i&subset=vietnamese')
+*
+    transition: all 300ms ease-in-out
+section.top
+    @media screen and (max-width: 420px)
+        height: 70vh 
+header
+    
+    transition: all 300ms ease-in-out
+header.blurbg
+    opacity: 1
+    
+    background-image: linear-gradient( 135deg, rgba(240, 95, 87,0.5) 10%, #360940 100%)
+    
+body
+    overflow: auto
+section
+    overflow: hidden    
+    background-image: url("")
+section.top
+    position: relative
+    top: 0
+    left: 0
+    
+    // .parrallax
+    //     position: absolute
+    //     z-index: 2
+    //     top: 0 
+    //     left: 0
+    //     width: 100%
+    //     height: 100vh
+    //     overflow: hidden
+    //     img
+    //         transition: all 300ms ease-in-out
+    //         width: 100%
+    //         height: 100vh
+    //         // position: absolute
+    //         // top: 0
+    //         // left: 0
+    .section
+        overflow: hidden
+        height: 100%
+        img.hero_img
+            transition: all 100ms ease
+            width: 100%
+            min-height: 100%
+            position: fixed
+            top: 0
+            left: 0
+            background-position: center center
+            background-attachment: fixed
+            background-size: cover
+            z-index: -1
+            transform: scale(1.15)
+            transform-origin: center center
+            @media screen and (max-width: 420px)
+                width: 130%
+                min-height: 110%
+        .wrapper 
+            h2.title_section
+                font-family: 'Ubuntu', sans-serif
+            p.kind_section
+                font-family: 'Robonto', sans-serif
+            a#img-link
+                width: 63%
+                height: 100vh
+                margin-right: 0
+                margin-left: auto
+                
+                @media screen and (max-width: 420px)
+                    width: 100%
+                    height: 70vh
+                    margin: 0
+                    top: 0
+                    left: 0
+               
+#section4
+    a#img-link                
+        background-image: url("")
+.introduce
+    //background: url("../img/texture.jpeg") center no-repeat
+
+    .detail
+        position: relative
+        width: 48%
+        margin-right: 20px
+        margin-left: auto
+        padding-right: 12%
+        @media screen and (max-width: 800px)
+            width: 90%
+            margin: 0 auto
+            padding-right: 0
+        img
+            width: 100%
+            
+section.body
+    background-color: #fefefe
+    > div
+        margin-bottom: 8em    
+h2.skill-intro
+    display: block
+    position: relative
+    padding-left: 2.8em
+    box-sizing: border-box
+    text-transform: uppercase
+    margin-bottom: 4em
+    font-family: 'Roboto', sans-serif
+    &:before
+        content: ""
+        display: block
+        position: absolute
+        top: 50%
+        left: 0
+        transform: translate(0,-50%)
+        width: 2.5em
+        height: 3px
+        background-color: black
+.detail
+    p.describe
+        width: 100%
+        text-align: justify
+        font-family: 'Patrick Hand', cursive
+.skill
+    .skill-wrapper
+        
+        width: 90%
+        margin: 20px auto
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        
+    .skill-set-item
+        width: 45% 
+        max-height: 60px     
+        display: flex
+        @media screen and (max-width: 800px)
+            flex-wrap: nowrap
+            width: 100%
+        .skill-img
+            margin-right: 15px  
+            img
+                width: 60px
+                height: 60px
+        .skill-detail
+            width: calc(100% - 70px)
+            padding: 10px 0
+            position: relative
+            .skill-meta
+                max-height: 30px
+                margin-bottom: 0.5em
+                p
+                    margin: 0
+                    display: inline-block 
+                    font-size: 1.3em
+                p.skill-name
+                    color: black
+                    font-weight: bold  
+                    font-family: 'KoHo' 
+                p.skill-year
+                    color: #c0c5ca
+                    font-size: 0.8em 
+                    margin-left: 0.3em
+                    text-transform: uppercase
+                    font-weight: 600
+                p.skill-per
+                    position: absolute
+                    // top: 0
+                    right: 0
+                    color: black
+                    font-weight: bold  
+                    font-family: 'KoHo'     
+            .skill-bar-wrapper
+                width: 100%
+                height: 10px
+                background: #fff
+                border-radius: 6px 
+                box-shadow: 0 5px 15px 0 rgba(7, 33, 66, 0.1)
+                position: relative
+                span.skill-bar
+                    height: 100%
+                    transition: all 300ms ease-in-out
+                    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%)
+                    border-radius: 6px
+                    position: absolute
+                    top: 0 
+                    left: 0          
+section.footer
+    width: 100%
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%)
+    background-attachment: fixed
+    height: 400px
+    position: relative
+    text-align: center
+    color: #fff
+    letter-spacing: 0.2em
+    .contact
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+
+
+      

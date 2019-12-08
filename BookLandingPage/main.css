@@ -1,0 +1,533 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers&subset=vietnamese");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900i");
+@font-face {
+  font-family: "myfont";
+  src: url("font/LeagueGothic-CondensedRegular.otf"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\000037}}
+* {
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000311}}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #e5e5e5;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000316}}
+  body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000322}}
+  body::-webkit-scrollbar-track {
+    background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000327}}
+  body::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000333}}
+  body::-webkit-scrollbar-thumb:hover {
+    background: #555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000336}}
+  body .top {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000342}}
+    body .top > section {
+      width: 100%;
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000346}}
+    body .top .layer1 {
+      overflow: hidden;
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000353}}
+      body .top .layer1 img {
+        width: 100%;
+        height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000358}}
+    body .top .layer2 {
+      z-index: 2;
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000361}}
+      body .top .layer2 .intro {
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        transform: translate(0%, -50%);
+        animation: textanimation 700ms forwards ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000367}}
+        body .top .layer2 .intro p {
+          font-family: "myfont";
+          color: #545454;
+          text-transform: uppercase;
+          font-size: 12em;
+          line-height: 1em;
+          text-shadow: 10px 10px 5px #CCC; }
+          @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000367}}
+            body .top .layer2 .intro p {
+              font-size: 10em; } }
+          @media screen and (max-width: 580px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000367}}
+            body .top .layer2 .intro p {
+              font-size: 6em;
+              letter-spacing: 8px; } }
+          @media screen and (max-width: 360px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000367}}
+            body .top .layer2 .intro p {
+              font-size: 4.5em; } }
+        @media screen and (max-width: 580px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000361}}
+          body .top .layer2 .intro {
+            top: 30%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000393}}
+      body .top .layer2 .book_gallary {
+        position: absolute;
+        top: 45%;
+        right: 10%;
+        width: 250px;
+        height: 400px;
+        transform: translate(0%, -50%);
+        box-shadow: 10px 20px 10px -1px #CCC;
+        animation: bookanimation 1700ms forwards ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003102}}
+        body .top .layer2 .book_gallary img {
+          width: 100%;
+          height: 100%; }
+        @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000393}}
+          body .top .layer2 .book_gallary {
+            transform: translate(25%, -50%); } }
+        @media screen and (max-width: 580px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\0000393}}
+          body .top .layer2 .book_gallary {
+            right: 50%;
+            transform: translate(50%, 0%); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003116}}
+    body .top .layer3 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 3;
+      overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003122}}
+      body .top .layer3 .mountain {
+        width: 65%;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        animation: mountAnimation 500ms forwards ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003133}}
+  body .body {
+    padding-top: 50px;
+    width: 100vw;
+    font-family: "Bangers";
+    width: 95vw;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 100;
+    border-radius: 30px 30px 0 0;
+    background: linear-gradient(0deg, #E5E5E5 0%, #fff 100%);
+    padding: 40px 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003147}}
+    body .body .title {
+      background-color: yellow;
+      padding: 10px;
+      font-size: 1.5em;
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003152}}
+      body .body .title:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100vw;
+        z-index: -1;
+        height: 3px;
+        background-color: #413e3e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003165}}
+    body .body .show_gallary {
+      max-width: 100%;
+      position: relative;
+      margin-bottom: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003169}}
+      body .body .show_gallary .show_gallary_container {
+        min-width: 100%;
+        padding: 2em 2em;
+        opacity: 0;
+        transition: all 1500ms ease-in-out;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 0;
+        /* Track */
+        /* Handle */
+        /* Handle on hover */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003180}}
+        body .body .show_gallary .show_gallary_container::-webkit-scrollbar {
+          width: 5px;
+          height: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003186}}
+        body .body .show_gallary .show_gallary_container::-webkit-scrollbar-track {
+          background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003191}}
+        body .body .show_gallary .show_gallary_container::-webkit-scrollbar-thumb {
+          background: #888;
+          border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003197}}
+        body .body .show_gallary .show_gallary_container::-webkit-scrollbar-thumb:hover {
+          background: #555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003200}}
+        body .body .show_gallary .show_gallary_container .gallary_item {
+          width: 25%;
+          margin: 0 2em;
+          text-align: center;
+          flex: 0 0 auto;
+          cursor: pointer; }
+          @media screen and (max-width: 420px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003200}}
+            body .body .show_gallary .show_gallary_container .gallary_item {
+              width: 80%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003210}}
+          body .body .show_gallary .show_gallary_container .gallary_item img {
+            width: 100%;
+            height: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003215}}
+        body .body .show_gallary .show_gallary_container .author {
+          border: 2px solid #412e11;
+          border-radius: 10px 10px 0 0;
+          padding: 50px 10px;
+          padding-top: 30px;
+          margin: 30px 20px;
+          /* background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca); */
+          background-color: #c1d9e4; }
+          @media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003215}}
+            body .body .show_gallary .show_gallary_container .author {
+              width: 80%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003226}}
+          body .body .show_gallary .show_gallary_container .author .card_header {
+            margin-top: -80px;
+            color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003229}}
+            body .body .show_gallary .show_gallary_container .author .card_header img {
+              width: 75px;
+              height: 75px;
+              border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003236}}
+          body .body .show_gallary .show_gallary_container .author .card_body table {
+            margin: 0 auto;
+            width: 95%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003239}}
+            body .body .show_gallary .show_gallary_container .author .card_body table tbody {
+              text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003241}}
+              body .body .show_gallary .show_gallary_container .author .card_body table tbody td {
+                border-top: 1px solid #fff;
+                padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003252}}
+      body .body .show_gallary .show_gallary_active {
+        opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003255}}
+      body .body .show_gallary nav.control {
+        position: absolute;
+        width: 100%;
+        cursor: pointer;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003263}}
+        body .body .show_gallary nav.control i {
+          padding: 5px;
+          border-radius: 50%;
+          background-color: #CCC;
+          color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003274}}
+  body .discover {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    z-index: 1000;
+    cursor: pointer;
+    transform: translateX(-50%);
+    font-family: "Bangers";
+    padding: 1em 2em;
+    font-size: 1em;
+    clip-path: polygon(0 0, 100% 0, 84% 100%, 16% 100%);
+    transition: all 300ms ease-in-out;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003288}}
+    body .discover a {
+      text-decoration: none;
+      color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003293}}
+    body .discover:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-color: #ffbc58;
+      top: 0;
+      left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003302}}
+    body .discover:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-color: #00d4ff;
+      left: 0;
+      top: 100%;
+      transition: all 300ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003313}}
+    body .discover:hover {
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003315}}
+      body .discover:hover:after {
+        top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003320}}
+  body .tooltip {
+    position: absolute;
+    width: 50px;
+    left: 2em;
+    bottom: 0;
+    z-index: 1000;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003327}}
+    body .tooltip .cookie {
+      width: 100%;
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003331}}
+    body .tooltip .marry_chirstmas {
+      display: block;
+      opacity: 0;
+      position: absolute;
+      padding: 5px 10px;
+      top: 50%;
+      background-color: yellow;
+      left: 110%;
+      transform: translate(-100%, -50%);
+      transition: all 600ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003343}}
+    body .tooltip:hover .marry_chirstmas {
+      opacity: 1;
+      transform: translate(0%, -50%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003350}}
+.footer {
+  background-color: #181819;
+  padding: 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Lato';
+  position: relative;
+  opacity: 0;
+  transform: translate(0, 10px);
+  transition: all 500ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003361}}
+  .footer .slogan {
+    font-size: 1.3em;
+    font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003364}}
+    .footer .slogan span {
+      font-size: 1.5em;
+      color: #fff;
+      text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003369}}
+    .footer .slogan strong {
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003373}}
+  .footer .foot_col {
+    display: inline-block;
+    flex: 0 0 auto;
+    width: 15%;
+    margin: 10px 20px; }
+    @media screen and (max-width: 625px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003373}}
+      .footer .foot_col {
+        width: 50%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003381}}
+    .footer .foot_col h2.foot_title {
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003384}}
+    .footer .foot_col a {
+      color: #9b9b9b;
+      text-decoration: none;
+      display: block;
+      transition: color .75s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003389}}
+      .footer .foot_col a:hover {
+        color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003394}}
+  .footer:before {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 50px;
+    height: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003406}}
+.footer_active {
+  opacity: 1;
+  transform: translate(0, 0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003412}}
+.contact_form {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Poppins"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003418}}
+  .contact_form #myvideo {
+    position: absolute;
+    width: 100%;
+    max-height: 100%;
+    top: 0;
+    left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003425}}
+  .contact_form .form_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    display: flex;
+    background-color: #1719416e;
+    padding: 2em 1em;
+    justify-content: space-around;
+    opacity: 0;
+    animation: formAnimation 1000ms ease-in-out forwards; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003425}}
+      .contact_form .form_container {
+        flex-wrap: wrap; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003441}}
+    .contact_form .form_container .form_wrapper {
+      width: 70%;
+      display: flex;
+      flex-wrap: wrap;
+      border-right: 1px solid #CCC;
+      margin-right: 30px;
+      justify-content: space-between; }
+      @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003441}}
+        .contact_form .form_container .form_wrapper {
+          width: 100%;
+          border-bottom: 1px solid #CCC;
+          border-right: 0px solid #CCC;
+          padding-bottom: 2em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003454}}
+      .contact_form .form_container .form_wrapper .submit_btn {
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+        min-height: 40px;
+        padding: 0px 30px;
+        border-radius: 30px;
+        background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca);
+        background-size: 210% 210%;
+        background-position: top right;
+        background-color: #e14eca;
+        transition: all 0.15s ease;
+        box-shadow: none;
+        color: #ffffff;
+        margin-right: 2em;
+        margin-left: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003470}}
+        .contact_form .form_container .form_wrapper .submit_btn:hover {
+          transform: translateY(-10px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003474}}
+      .contact_form .form_container .form_wrapper #mess_form {
+        width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003477}}
+      .contact_form .form_container .form_wrapper .form_element {
+        width: 30%;
+        margin: 0 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003481}}
+        .contact_form .form_container .form_wrapper .form_element label {
+          color: #fff;
+          font-weight: 700;
+          margin-bottom: 5px;
+          font-size: 0.8em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003487}}
+        .contact_form .form_container .form_wrapper .form_element .form-control {
+          display: block;
+          width: 100%;
+          height: calc(2.25rem + 2px);
+          padding: 10px 18px 10px 18px;
+          border: 1px solid #cad1d7;
+          border-color: #2b3553;
+          outline: none;
+          border-radius: 1.4285rem;
+          font-size: 0.75rem;
+          transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+          color: #fff;
+          background-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003500}}
+          .contact_form .form_container .form_wrapper .form_element .form-control:focus {
+            border-color: #e14eca; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003508}}
+    .contact_form .form_container .form_help .company_info {
+      display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003510}}
+      .contact_form .form_container .form_help .company_info .icon {
+        color: #e14eca;
+        font-size: 2.0625rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003514}}
+      .contact_form .form_container .form_help .company_info .description {
+        padding: 10px 20px;
+        text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/Web\/Project\/Portifilo\/PureHtml\/include\/BookLandingPage\/main\.scss}line{font-family:\00003517}}
+        .contact_form .form_container .form_help .company_info .description h4 {
+          margin: 0;
+          color: #fff; }
+
+@keyframes textanimation {
+  0% {
+    left: -100%;
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes bookanimation {
+  0% {
+    right: -100%;
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes formAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(-100%, -50%); }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%); } }
+@keyframes mountAnimation {
+  0% {
+    bottom: -100%;
+    opacity: 0; }
+  100% {
+    bottom: 0;
+    opacity: 1; } }
+
+/*# sourceMappingURL=main.css.map */
