@@ -173,6 +173,7 @@ h2.skill-intro:before {
   width: 100%;
   text-align: justify;
   font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
 }
 
 .skill .skill-wrapper {

@@ -128,7 +128,7 @@
           box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
   margin-right: 10%;
   margin-left: auto;
-  background: url(../img/reile.jpg) center no-repeat;
+  background: url(../img/burger.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -143,8 +143,15 @@
 }
 
 #section2 a#img-link {
-  background: url(../img/woman2.jpeg) center no-repeat;
+  background: url(../img/shoo.jpg) center no-repeat;
+  background-size: cover;
 }
+
+#section3 a#img-link {
+  background: url(../img/bookstore.jpg) center no-repeat;
+  background-size: cover;
+}
+
 
 #section4 a#img-link {
   background: url(../img/hunghcc.jpg) center no-repeat;

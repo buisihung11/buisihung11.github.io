@@ -11,13 +11,11 @@ $(document).ready(function(){
     //end
     
 })
-window.onscroll = function () {
-    console.log(window.scrollY)
-}
+
 
 $(window).scroll(function(){
     var st = $(this).scrollTop();
-    console.log(st);
+    
     var headerHeight = $("header").css("height").replace("px","");
     var bodyOffset = parseInt($("section.body").offset().top);
     console.log(bodyOffset)
